@@ -9,6 +9,7 @@ body {
   text-align: center;
 }
 
+
 /* TITLE */
 .title-section {
   background: url('https://i.imgur.com/CzARdQ2.jpg');
@@ -57,7 +58,34 @@ body {
 }
 
 .project-h3 {
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 400;
   margin-bottom: 10px;
+}
+
+.project-links {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* SKILLS */
+.skills-section {
+  height: 70vh;
+}
+
+.skills-icons {
+  font-size: 90px;
+}
+
+.skills-icons-container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+/* CONTACT */
+.contact-section {
+  background-color: #000;
+  color: #FFF;
+  height: 30vh;
 }
