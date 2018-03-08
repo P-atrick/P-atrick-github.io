@@ -1,3 +1,63 @@
 body {
-  background-color: purple;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.section-h2 {
+  font-size: 45px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* TITLE */
+.title-section {
+  background: url('https://i.imgur.com/CzARdQ2.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.title-text {
+  color: #FFF;
+  color: rgba(255, 255, 255, 0.9);
+  padding-left: 200px;
+  padding-top: 150px;
+}
+
+.title-h1 {
+  font-size: 60px;
+}
+
+.title-h2 {
+  font-size: 40px;
+}
+
+/* PROFILE */
+.profile-section {
+  background-color: #FFF;
+  /* background-color: rgba(50,150,50,0.4); */
+  height: 60vh;
+}
+
+/* PROJECTS */
+.projects-section {
+  background-color: #000;
+  /* background-color: rgba(50,50,150,0.4); */
+  color: #FFF;
+  height: 180vh;
+}
+
+.project-container {
+  margin-top: 40px;
+}
+
+.project-image {
+  height: 15%;
+  width: 15%;
+}
+
+.project-h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
