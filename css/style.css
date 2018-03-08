@@ -13,6 +13,12 @@ a {
   text-align: center;
 }
 
+.styled-hr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+  height: 1px;
+  margin: 70px auto 70px auto;
+  width: 60%;
+}
 
 /* TITLE */
 .title-section {
@@ -47,9 +53,8 @@ a {
 /* PROJECTS */
 .projects-section {
   background-color: #000;
-  /* background-color: rgba(50,50,150,0.4); */
   color: #FFF;
-  height: 180vh;
+  height: 230vh;
 }
 
 .project-h2 {
@@ -60,10 +65,13 @@ a {
 }
 
 .project-container {
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 }
 
 .project-image {
+  border: 2px solid #FFF;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
   height: 15%;
   width: 15%;
 }
@@ -113,11 +121,11 @@ a {
 .contact-section {
   background-color: #000;
   color: #FFF;
-  height: 30vh;
+  height: 26vh;
 }
 
 .contact-icons {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .contact-icons-container {
