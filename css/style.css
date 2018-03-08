@@ -2,6 +2,10 @@ body {
   font-family: 'Nunito Sans', sans-serif;
 }
 
+a {
+  color: #FFF;
+}
+
 .section-h2 {
   font-size: 45px;
   padding-bottom: 30px;
@@ -48,8 +52,15 @@ body {
   height: 180vh;
 }
 
+.project-h2 {
+  font-size: 45px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  text-align: center;
+}
+
 .project-container {
-  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .project-image {
@@ -58,14 +69,29 @@ body {
 }
 
 .project-h3 {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 400;
   margin-bottom: 10px;
 }
 
-.project-links {
+.group-project {
+  color: #FFF;
+  font-size: 18px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.project-link-heroku {
   display: inline-block;
   font-size: 20px;
+  font-weight: 600;
+  margin: 20px 20px 0 0;
+}
+
+.project-link {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
   margin-top: 20px;
 }
 
@@ -88,4 +114,14 @@ body {
   background-color: #000;
   color: #FFF;
   height: 30vh;
+}
+
+.contact-icons {
+  font-size: 80px;
+}
+
+.contact-icons-container {
+  margin: -20px auto;
+  text-align: center;
+  width: 30%;
 }
