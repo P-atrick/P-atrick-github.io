@@ -59,7 +59,7 @@ a {
 
 .project-h2 {
   font-size: 45px;
-  padding-bottom: 40px;
+  padding-bottom: 70px;
   padding-top: 30px;
   text-align: center;
 }
@@ -77,14 +77,14 @@ a {
 }
 
 .project-h3 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 400;
   margin-bottom: 10px;
 }
 
 .group-project {
   color: #FFF;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: -10px;
   margin-bottom: 20px;
 }
