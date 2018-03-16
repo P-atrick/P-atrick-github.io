@@ -180,7 +180,11 @@ a {
 
   /* PROFILE */
   .profile-section {
-    height: 400px;
+    height: 420px;
+  }
+
+  .profile-container {
+    width: 92%;
   }
 
   /* PROJECTS */
@@ -205,7 +209,7 @@ a {
     border: 2px solid #FFF;
     border: 2px solid rgba(255, 255, 255, 0);
     height: 70%;
-    width: 90%;
+    width: 98%;
     margin: 0 auto;
   }
 
@@ -231,14 +235,14 @@ a {
 
   .project-link-heroku {
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     margin: 0 10px 0 10px;
   }
 
   .project-link {
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     margin-top: 20px;
   }
