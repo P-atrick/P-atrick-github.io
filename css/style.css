@@ -3,7 +3,7 @@ body {
 }
 
 a {
-  color: #FFF;
+  color: purple;
 }
 
 .section-h2 {
@@ -47,14 +47,14 @@ a {
 .profile-section {
   background-color: #FFF;
   /* background-color: rgba(50,150,50,0.4); */
-  height: 60vh;
+  height: 450px;
 }
 
 /* PROJECTS */
 .projects-section {
   background-color: #000;
   color: #FFF;
-  height: 230vh;
+  height: 2000px;
 }
 
 .project-h2 {
@@ -112,7 +112,7 @@ a {
 
 /* SKILLS */
 .skills-section {
-  height: 70vh;
+  height: 580px;
 }
 
 .skills-icons {
@@ -128,7 +128,7 @@ a {
 .contact-section {
   background-color: #000;
   color: #FFF;
-  height: 26vh;
+  height: 220px;
 }
 
 .contact-icons {
