@@ -140,3 +140,22 @@ a {
   text-align: center;
   width: 30%;
 }
+
+@media screen and (max-width: 420px) {
+
+  .title-text {
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.9);
+    padding-left: 50px;
+    padding-top: 100px;
+  }
+
+  .title-h1 {
+    font-size: 40px;
+  }
+
+  .title-h2 {
+    font-size: 25px;
+  }
+
+}
