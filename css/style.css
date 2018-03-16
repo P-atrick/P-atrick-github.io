@@ -1,5 +1,6 @@
 body {
   font-family: 'Nunito Sans', sans-serif;
+  width: 100%;
 }
 
 a {
@@ -48,6 +49,7 @@ a {
   background-color: #FFF;
   /* background-color: rgba(50,150,50,0.4); */
   height: 450px;
+
 }
 
 /* PROJECTS */
