@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: purple;
+  color: #FFF;
 }
 
 .section-h2 {
@@ -46,10 +46,7 @@ a {
 
 /* PROFILE */
 .profile-section {
-  background-color: #FFF;
-  /* background-color: rgba(50,150,50,0.4); */
   height: 450px;
-
 }
 
 /* PROJECTS */
@@ -143,21 +140,137 @@ a {
   width: 30%;
 }
 
+
+
 @media screen and (max-width: 420px) {
 
+  body {
+    font-size: 14px;
+  }
+
+  .styled-hr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+    height: 1px;
+    margin: 40px auto 40px auto;
+    width: 60%;
+  }
+
+  .section-h2 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  /* TITLE */
   .title-text {
     color: #FFF;
     color: rgba(255, 255, 255, 0.9);
-    padding-left: 50px;
-    padding-top: 100px;
+    padding-left: 20px;
+    padding-top: 140px;
   }
 
   .title-h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .title-h2 {
     font-size: 25px;
   }
 
+  /* PROFILE */
+  .profile-section {
+    height: 500px;
+  }
+
+  /* PROJECTS */
+  .projects-section {
+    background-color: #000;
+    color: #FFF;
+    height: 2450px;
+  }
+
+  .project-h2 {
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .project-container {
+    /* margin-bottom: 80px; */
+  }
+
+  .project-image {
+    border: 2px solid #FFF;
+    border: 2px solid rgba(255, 255, 255, 0);
+    height: 70%;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .project-h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .group-project {
+    color: #FFF;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+  }
+
+  .made-with {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 20px 0 0;
+  }
+
+  .project-link-heroku {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 10px 0 10px;
+  }
+
+  .project-link {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  /* SKILLS */
+  .skills-section {
+    height: 380px;
+  }
+
+  .skills-icons {
+    font-size: 50px;
+  }
+
+  .skills-icons-container {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  /* CONTACT */
+  .contact-section {
+    background-color: #000;
+    color: #FFF;
+    height: 130px;
+  }
+
+  .contact-icons {
+    font-size: 50px;
+  }
+
+  .contact-icons-container {
+    margin: -20px auto;
+    text-align: center;
+    width: 60%;
+  }
 }
