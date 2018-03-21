@@ -46,7 +46,11 @@ a {
 
 /* PROFILE */
 .profile-section {
-  height: 450px;
+  height: 400px;
+}
+
+.profile-container {
+  width: 90%;
 }
 
 /* PROJECTS */
@@ -182,7 +186,7 @@ a {
   }
 
   .profile-container {
-    width: 92%;
+    width: 90%;
   }
 
   /* PROJECTS */
@@ -319,7 +323,7 @@ a {
   }
 
   .profile-container {
-    width: 92%;
+    width: 90%;
   }
 
   /* PROJECTS */
@@ -452,11 +456,11 @@ a {
 
   /* PROFILE */
   .profile-section {
-    height: 300px;
+    height: 470px;
   }
 
   .profile-container {
-    width: 92%;
+    width: 90%;
   }
 
   /* PROJECTS */
@@ -589,11 +593,11 @@ a {
 
   /* PROFILE */
   .profile-section {
-    height: 440px;
+    height: 540px;
   }
 
   .profile-container {
-    width: 92%;
+    width: 90%;
   }
 
   /* PROJECTS */
