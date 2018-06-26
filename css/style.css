@@ -57,7 +57,7 @@ a {
 .projects-section {
   background-color: #000;
   color: #FFF;
-  height: 2000px;
+  height: 2500px;
 }
 
 .project-h2 {
@@ -193,7 +193,7 @@ a {
   .projects-section {
     background-color: #000;
     color: #FFF;
-    height: 1450px;
+    height: 1800px;
   }
 
   .project-h2 {
@@ -330,7 +330,7 @@ a {
   .projects-section {
     background-color: #000;
     color: #FFF;
-    height: 1450px;
+    height: 1900px;
   }
 
   .project-h2 {
@@ -467,7 +467,281 @@ a {
   .projects-section {
     background-color: #000;
     color: #FFF;
-    height: 2980px;
+    height: 3700px;
+  }
+
+  .project-h2 {
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .project-container {
+    width: 92%;
+  }
+
+  .project-image {
+    border: 2px solid #FFF;
+    border: 2px solid rgba(255, 255, 255, 0);
+    height: 70%;
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .project-h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .group-project {
+    color: #FFF;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+  }
+
+  .made-with {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 20px 0 0;
+  }
+
+  .project-link-heroku {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 10px 0 10px;
+  }
+
+  .project-link {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  /* SKILLS */
+  .skills-section {
+    height: 300px;
+  }
+
+  .skills-icons {
+    font-size: 50px;
+  }
+
+  .skills-icons-container {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  /* CONTACT */
+  .contact-section {
+    background-color: #000;
+    color: #FFF;
+    height: 130px;
+  }
+
+  .contact-icons {
+    font-size: 50px;
+  }
+
+  .contact-icons-container {
+    margin: -20px auto;
+    text-align: center;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  .styled-hr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+    height: 1px;
+    margin: 40px auto 40px auto;
+    width: 60%;
+  }
+
+  .section-h2 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  /* TITLE */
+  .title-text {
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.9);
+    padding-left: 110px;
+    padding-top: 250px;
+  }
+
+  .title-h1 {
+    font-size: 50px;
+  }
+
+  .title-h2 {
+    font-size: 25px;
+  }
+
+  /* PROFILE */
+  .profile-section {
+    height: 470px;
+  }
+
+  .profile-container {
+    width: 90%;
+  }
+
+  /* PROJECTS */
+  .projects-section {
+    background-color: #000;
+    color: #FFF;
+    height: 3550px;
+  }
+
+  .project-h2 {
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .project-container {
+    width: 92%;
+  }
+
+  .project-image {
+    border: 2px solid #FFF;
+    border: 2px solid rgba(255, 255, 255, 0);
+    height: 70%;
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .project-h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .group-project {
+    color: #FFF;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+  }
+
+  .made-with {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 20px 0 0;
+  }
+
+  .project-link-heroku {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 10px 0 10px;
+  }
+
+  .project-link {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  /* SKILLS */
+  .skills-section {
+    height: 300px;
+  }
+
+  .skills-icons {
+    font-size: 50px;
+  }
+
+  .skills-icons-container {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  /* CONTACT */
+  .contact-section {
+    background-color: #000;
+    color: #FFF;
+    height: 130px;
+  }
+
+  .contact-icons {
+    font-size: 50px;
+  }
+
+  .contact-icons-container {
+    margin: -20px auto;
+    text-align: center;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  .styled-hr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+    height: 1px;
+    margin: 40px auto 40px auto;
+    width: 60%;
+  }
+
+  .section-h2 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  /* TITLE */
+  .title-text {
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.9);
+    padding-left: 110px;
+    padding-top: 250px;
+  }
+
+  .title-h1 {
+    font-size: 50px;
+  }
+
+  .title-h2 {
+    font-size: 25px;
+  }
+
+  /* PROFILE */
+  .profile-section {
+    height: 470px;
+  }
+
+  .profile-container {
+    width: 90%;
+  }
+
+  /* PROJECTS */
+  .projects-section {
+    background-color: #000;
+    color: #FFF;
+    height: 3380px;
   }
 
   .project-h2 {
@@ -604,7 +878,7 @@ a {
   .projects-section {
     background-color: #000;
     color: #FFF;
-    height: 2500px;
+    height: 3200px;
   }
 
   .project-h2 {
